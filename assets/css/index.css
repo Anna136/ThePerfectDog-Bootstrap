@@ -10,17 +10,17 @@ header{
 	background-repeat: no-repeat;
     background-size: cover;
 }
-.navbar{
+header .navbar{
     background: inherit;
 }
-.navbar ul li{
+header .navbar ul li{
     margin-left: 50px;
     font-size: 20px;
 	line-height: 24px;
     font-weight: 600;
     
 }
-.navbar ul li img{
+header .navbar ul li img{
     margin-right: 300px;
 }
 section{
@@ -33,4 +33,20 @@ h1{
 .card{
     min-height: 300px;
     border: none;
+}
+footer{
+    background: radial-gradient(circle, rgba(63,141,177,1) 0%, rgba(0,112,156,1) 100%);
+}
+footer .navbar{
+    background: inherit;
+}
+footer .navbar ul li{
+    margin-left: 50px;
+    font-size: 20px;
+	line-height: 24px;
+    font-weight: 600;
+    
+}
+footer .navbar ul li img{
+    margin-right: 300px;
 }
